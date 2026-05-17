@@ -19,6 +19,6 @@ Tree using ML method in R package DECIPHER
 For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [some folder (this is the one named with your name)]
 
 Results:
-image:![alt text](image.jpg)
+![alt text](image.jpg)
 Samples 1 and 6 were the most closely related. Sample 2 and 3 also clustered together closely. Samples 4 and 5 formed a seperate branch from the other samples, suggesting they are more genetically distinct.
 Based on the phylogenetic tree, the samples likely originated from approximately 3 different viral lineages or individuals. 
