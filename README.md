@@ -11,14 +11,13 @@ Purpose:
 The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire ebolavirus in order to determine the evolutionary relationships between the samples.
 
 Methods:
-Include information about
-Sequencing reads (NGS next-generation sequencing)
-Assembly using MEGAHIT (provide a link to MEGAHIT website)
-Alignment using R package DECIPHER
-Tree using ML method in R package DECIPHER
-For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [some folder (this is the one named with your name)]
+Next-generation sequencing (NGS) reads from 6 viral samples were assembled into contigs using MEGAHIT. The assembled contigs were imported into R and analyzed using the DECIPHER and Biostrings packages.
+Sequences were aligned using the AlignSeqs function in DECIPHER, and the alignment was visualized using BrowseSeqs. A phylogenetic tree was generated using the maximum likelihood (ML) method with the Treeline function.
+Because the assemblies did not produce contigs larger than 5000 bp, all contigs were included in the alignment and phylogenetic analysis.
+(link for alignment html)
+(link for R Script) 
 
 Results:
-![Phylogenetic Tree](phylogenetic_tree.png)
+[Phylogenetic Tree](phylogenetic_tree.png)
 Samples 1 and 6 were the most closely related. Sample 2 and 3 also clustered together closely. Samples 4 and 5 formed a seperate branch from the other samples, suggesting they are more genetically distinct.
 Based on the phylogenetic tree, the samples likely originated from approximately 3 different viral lineages or individuals. 
