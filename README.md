@@ -15,8 +15,8 @@ Next-generation sequencing (NGS) reads from 6 viral samples were assembled into 
 Sequences were aligned using the AlignSeqs function in DECIPHER, and the alignment was visualized using BrowseSeqs. A phylogenetic tree was generated using the maximum likelihood (ML) method with the Treeline function.
 Because the assemblies did not produce contigs larger than 5000 bp, all contigs were included in the alignment and phylogenetic analysis.
 
-(link for alignment html) [title](https://www.example.com)
-(link for R Script) [title](https://www.example.com)
+[alignment html]()
+[R Script](https://docs.google.com/document/d/1QgWnRKUeIt6sKW6l9wIV_ByAneBCqe4Cl1Lq5-rxLbs/edit?usp=sharing)
 
 Results:
 ![Phylogenetic Tree](phylogenetic_tree.png)
